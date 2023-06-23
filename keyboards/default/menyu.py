@@ -115,47 +115,47 @@ def shashlik():
     rkm.add(button, button2, button3, button4, button5, button6)
     return rkm
 
-
-def zakaz_ber_ovqatlar():
-    rkm = ReplyKeyboardMarkup(resize_keyboard=True)
-    button = KeyboardButton(text="🛒Savatga qushish")
-    button2 = KeyboardButton(text="⏮ Bekor qilish")
-    rkm.add(button, button2)
-    return rkm
-
-
-
-def zakaz_ber_piva():
-    rkm = ReplyKeyboardMarkup(resize_keyboard=True)
-    button = KeyboardButton(text="🗑Savatga qushish")
-    button2 = KeyboardButton(text="🔙 Bekor qilish")
-    rkm.add(button, button2)
-    return rkm
-
-def zakaz_ber_pepsi():
-    rkm = ReplyKeyboardMarkup(resize_keyboard=True)
-    button = KeyboardButton(text="🗑 Savatga qushish")
-    button2 = KeyboardButton(text="◀ Bekor qilish")
-    rkm.add(button, button2)
-    return rkm
-
-def zakaz_ber_cola():
-    rkm = ReplyKeyboardMarkup(resize_keyboard=True)
-    button = KeyboardButton(text="🛒 Savatga qushish")
-    button2 = KeyboardButton(text="⏪ Bekor qilish")
-    rkm.add(button, button2)
-    return rkm
-
-def zakaz_ber_fanta():
-    rkm = ReplyKeyboardMarkup(resize_keyboard=True)
-    button = KeyboardButton(text="🛒 Savatga-qushish")
-    buttton2 = KeyboardButton(text="⬅ Bekor qilish")
-    rkm.add(button, buttton2)
-    return rkm
-
-def zakaz_ber_shashlik():
-    rkm = ReplyKeyboardMarkup(resize_keyboard=True)
-    button = KeyboardButton(text="🗑 Savatga-qushish")
-    button2 = KeyboardButton(text="🔚 Bekor qilish")
-    rkm.add(button, button2)
-    return rkm
+#
+# def zakaz_ber_ovqatlar():
+#     rkm = ReplyKeyboardMarkup(resize_keyboard=True)
+#     button = KeyboardButton(text="🛒Savatga qushish")
+#     button2 = KeyboardButton(text="⏮ Bekor qilish")
+#     rkm.add(button, button2)
+#     return rkm
+#
+#
+#
+# def zakaz_ber_piva():
+#     rkm = ReplyKeyboardMarkup(resize_keyboard=True)
+#     button = KeyboardButton(text="🗑Savatga qushish")
+#     button2 = KeyboardButton(text="🔙 Bekor qilish")
+#     rkm.add(button, button2)
+#     return rkm
+#
+# def zakaz_ber_pepsi():
+#     rkm = ReplyKeyboardMarkup(resize_keyboard=True)
+#     button = KeyboardButton(text="🗑 Savatga qushish")
+#     button2 = KeyboardButton(text="◀ Bekor qilish")
+#     rkm.add(button, button2)
+#     return rkm
+#
+# def zakaz_ber_cola():
+#     rkm = ReplyKeyboardMarkup(resize_keyboard=True)
+#     button = KeyboardButton(text="🛒 Savatga qushish")
+#     button2 = KeyboardButton(text="⏪ Bekor qilish")
+#     rkm.add(button, button2)
+#     return rkm
+#
+# def zakaz_ber_fanta():
+#     rkm = ReplyKeyboardMarkup(resize_keyboard=True)
+#     button = KeyboardButton(text="🛒 Savatga-qushish")
+#     buttton2 = KeyboardButton(text="⬅ Bekor qilish")
+#     rkm.add(button, buttton2)
+#     return rkm
+#
+# def zakaz_ber_shashlik():
+#     rkm = ReplyKeyboardMarkup(resize_keyboard=True)
+#     button = KeyboardButton(text="🗑 Savatga-qushish")
+#     button2 = KeyboardButton(text="🔚 Bekor qilish")
+#     rkm.add(button, button2)
+#     return rkm
